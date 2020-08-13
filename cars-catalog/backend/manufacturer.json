@@ -1,0 +1,76 @@
+{
+    "manufacturer": [
+        {
+            "id": 7,
+            "name": "audi",
+            "avg_horsepower": 340.59090909090907,
+            "avg_price": 66631.81818181818
+          },
+          {
+            "id": 11,
+            "name": "bmw",
+            "avg_horsepower": 379.2258064516129,
+            "avg_price": 74501.6129032258
+          },
+          {
+            "id": 23,
+            "name": "chevrolet",
+            "avg_horsepower": 250.8421052631579,
+            "avg_price": 33572.36842105263
+          },
+          {
+            "id": 25,
+            "name": "mitsubishi",
+            "avg_horsepower": 152.14285714285714,
+            "avg_price": 23680.714285714286
+          },
+          {
+            "id": 26,
+            "name": "volkswagen",
+            "avg_horsepower": 203.08333333333334,
+            "avg_price": 29929.583333333332
+          },
+          {
+            "num_models": 21,
+            "img_url": "http://www.carlogos.org/uploads/car-logos/Toyota-logo-1.jpg",
+            "max_car_id": 339,
+            "id": 27,
+            "name": "toyota",
+            "avg_horsepower": 209.23809523809524,
+            "avg_price": 36709.76190476191
+          },
+          {
+            "num_models": 6,
+            "img_url": "http://www.carlogos.org/uploads/car-logos/Jeep-logo-1.jpg",
+            "max_car_id": 187,
+            "id": 28,
+            "name": "jeep",
+            "avg_horsepower": 239.83333333333334,
+            "avg_price": 33440.833333333336
+          },
+          {
+            "id": 29,
+            "name": "hyundai",
+            "avg_horsepower": 246.5,
+            "avg_price": 32676.428571428572
+          },
+          {
+            "id": 30,
+            "name": "cadillac",
+            "avg_horsepower": 372.15384615384613,
+            "avg_price": 61818.46153846154
+          },
+          {
+            "id": 31,
+            "name": "lamborghini",
+            "avg_horsepower": 665,
+            "avg_price": 393025
+          },
+          {
+            "id": 35,
+            "name": "kia",
+            "avg_horsepower": 216.11111111111111,
+            "avg_price": 28725.555555555555
+          }
+    ]
+}
