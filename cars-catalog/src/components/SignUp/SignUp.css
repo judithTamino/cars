@@ -1,0 +1,17 @@
+.signup-facebook-btn {
+    box-shadow: inset 0 1px 0 0 #4d73bf;
+    background-color: #4267b2;
+    border: 1px solid #4267b2;
+    color: #fff;
+    text-shadow: 0 1px 0 #3359a5;
+}
+
+.signup-facebook-btn:hover {
+    background-color: #2b54a7;
+    color: #fff;
+}
+
+.signup-facebook-btn:active {
+    background-color: #1d4698;
+    border-color: #1d4698;
+}

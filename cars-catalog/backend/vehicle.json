@@ -23,7 +23,7 @@
             "id": 3,
             "horsepower": 240,
             "make": "bmw",
-            "model": "2-series",
+            "model": "2 series",
             "price": 38650,
             "img_url": "http://ts2.mm.bing.net/th?id=OIP.M8d2ce327068244565567a1db316398a6H0&pid=15.1"
           },
@@ -32,7 +32,7 @@
             "id": 4,
             "horsepower": 240,
             "make": "bmw",
-            "model": "3-series",
+            "model": "3 series",
             "price": 38350,
             "img_url": "http://ts3.mm.bing.net/th?id=OIP.M23f6b0f90f24a3ec99fe227ef589c787H0&pid=15.1"
           },
@@ -41,7 +41,7 @@
             "id": 5,
             "horsepower": 300,
             "make": "bmw",
-            "model": "3-series-gran-turismo",
+            "model": "3 series gran turismo",
             "price": 49200,
             "img_url": "http://ts2.mm.bing.net/th?id=OIP.Mc75fa0e340932e6cf464cd86e3634f67H0&pid=15.1"
           },
@@ -50,7 +50,7 @@
             "id": 6,
             "horsepower": 300,
             "make": "bmw",
-            "model": "4-series",
+            "model": "4 series",
             "price": 56950,
             "img_url": "http://ts3.mm.bing.net/th?id=OIP.M9e5565480094a5717411c0ae75bee837H0&pid=15.1"
           },
@@ -59,7 +59,7 @@
             "id": 7,
             "horsepower": 300,
             "make": "bmw",
-            "model": "4-series-gran-coupe",
+            "model": "4 series gran coupe",
             "price": 49950,
             "img_url": "http://ts4.mm.bing.net/th?id=OIP.M0d926544d83e5fbc63253d78424d492bo0&pid=15.1"
           },
@@ -68,7 +68,7 @@
             "id": 8,
             "horsepower": 443,
             "make": "bmw",
-            "model": "5-series",
+            "model": "5 series",
             "price": 68600,
             "img_url": "http://ts2.mm.bing.net/th?id=OIP.M9bc53ff98dd6355041b33ef32b33d9e9o0&pid=15.1"
           },
@@ -86,7 +86,7 @@
             "id": 10,
             "horsepower": 640,
             "make": "cadillac",
-            "model": "cts-v",
+            "model": "cts v",
             "price": 83995,
             "img_url": "http://ts2.mm.bing.net/th?id=OIP.M3c13b05ab3502e3f8322c0fba8e1df19H0&pid=15.1"
           },
@@ -95,7 +95,7 @@
             "id": 11,
             "horsepower": 556,
             "make": "cadillac",
-            "model": "cts-v-coupe",
+            "model": "cts v coupe",
             "price": 69900,
             "img_url": "http://ts2.mm.bing.net/th?id=OIP.M2a1313b36a666c7c389031917277bde4H0&pid=15.1"
           },
@@ -113,7 +113,7 @@
             "id": 13,
             "horsepower": 202,
             "make": "hyundai",
-            "model": "sonata-plug-in-hybrid",
+            "model": "sonata plug in hybrid",
             "price": 38600,
             "img_url": "http://ts3.mm.bing.net/th?id=OIP.Mbc7ab1670ab072f0d6da624edb6eaf2co0&pid=15.1"
           },
@@ -167,7 +167,7 @@
             "id": 19,
             "horsepower": 240,
             "make": "land-rover",
-            "model": "discovery-sport",
+            "model": "discovery sport",
             "price": 37455,
             "img_url": "http://ts3.mm.bing.net/th?id=OIP.M74cf469a97fea7aae725be410558553co0&pid=15.1"
           },
@@ -185,7 +185,7 @@
             "id": 21,
             "horsepower": 138,
             "make": "chevrolet",
-            "model": "cruze-limited",
+            "model": "cruze limited",
             "price": 20195,
             "img_url": "http://ts1.mm.bing.net/th?id=OIP.Mb11af05c5ea28380b47a63128e5aed0eo0&pid=15.1"
           },
@@ -221,7 +221,7 @@
             "id": 25,
             "horsepower": 210,
             "make": "volkswagen",
-            "model": "beetle-convertible",
+            "model": "beetle convertible",
             "price": 29790,
             "img_url": "http://ts4.mm.bing.net/th?id=OIP.M54e0f592ebabe94388d55a3e924b1690H0&pid=15.1"
           },
@@ -257,7 +257,7 @@
             "id": 29,
             "horsepower": 210,
             "make": "volkswagen",
-            "model": "golf-gti",
+            "model": "golf gti",
             "price": 29125,
             "img_url": "http://ts4.mm.bing.net/th?id=OIP.M9cc6d420ab965f974fd845b25435c5a6H0&pid=15.1"
           },
@@ -266,7 +266,7 @@
             "id": 30,
             "horsepower": 292,
             "make": "volkswagen",
-            "model": "golf-r",
+            "model": "golf r",
             "price": 38995,
             "img_url": "http://ts3.mm.bing.net/th?id=OIP.M0151237f77f817b440321d7eb80eefebH0&pid=15.1"
           },
@@ -275,7 +275,7 @@
             "id": 31,
             "horsepower": 170,
             "make": "volkswagen",
-            "model": "golf-sportwagen",
+            "model": "golf sportwagen",
             "price": 27025,
             "img_url": "http://ts1.mm.bing.net/th?id=OIP.M9ec4b2e99cb1371b9a87f8ccdc312e8fH0&pid=15.1"
           },

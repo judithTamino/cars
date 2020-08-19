@@ -3,10 +3,6 @@ const Schema = mongoose.Schema;
 
 const UserSchema = new Schema(
     {
-        facebookId: {
-            type: String,
-            required: true
-        },
         firstName: {
             type: String,
             required: true
@@ -18,6 +14,16 @@ const UserSchema = new Schema(
         email: {
             type: String,
             required: true
+        },
+        signWith: {
+            type: String,
+            required: true
+        },
+        password: {
+            type: String
+        },
+        facebookToken: {
+            type: String
         },
         createdAt: {
             type: Date,

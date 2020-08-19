@@ -30,10 +30,8 @@ app.use(passport.session());
 
 // routes
 const carsRouter = require('./routes/cars');
-// const userRouter = require('./routes/user.route');
-
+app.use('/auth', require('./routes/auth'));
 app.use('/cars', carsRouter);
-// app.use('/auth', require('./routes/user.route'));
 
 const port = process.env.PORT || 5000;
 connectDB();
