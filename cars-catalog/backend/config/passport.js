@@ -1,8 +1,33 @@
 const FacebookStrategy = require('passport-facebook').Strategy;
-const mongoose = require('mongoose');
+const LocalStrategy = require('passport-local').Strategy;
 const User = require('../models/User');
+const bcrypt = require('bcrypt');
 
 module.exports = (passport) => {
+    passport.use(new LocalStrategy({
+        usernameField:"email"
+    }, async (email, password, done) => {
+        try {
+            let localUser = await User.findOne({ email: email });
+            if (localUser) {
+                let matchPassword = await bcrypt.compare(password, localUser.password);
+                if (matchPassword) {
+                    // console.log('login successfully');
+                    return done(null, localUser, { status: 200, msg: 'login successfully'})
+                } else {
+                    // console.log('password incorrect');
+                    return done(null, false, { status: 400, msg: 'password incorrect'});
+                }
+            } else {
+                // console.log('no user with that email');
+                return done(null, false, { status: 404, msg: 'no user with that email'});
+            }
+        } catch (error) {
+            console.log('hello')
+            console.error(error);
+        }
+    }));
+
     passport.use(new FacebookStrategy({
         clientID: process.env.FACEBOOK_APP_ID,
         clientSecret: process.env.FACEBOOK_APP_SECRET,

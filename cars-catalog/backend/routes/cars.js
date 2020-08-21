@@ -1,5 +1,4 @@
 const router = require("express").Router();
-const fetch = require("node-fetch");
 
 const manufacturers = require("../manufacturer.json");
 const vehicle = require("../vehicle.json");

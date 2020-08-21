@@ -11,3 +11,9 @@
   margin: 1rem;
   border-radius: 5px;
 }
+
+.sign-container {
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+}

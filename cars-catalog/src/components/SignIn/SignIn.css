@@ -1,7 +1,14 @@
-.sign-container {
-    width: 400px;
-    margin-top: 50px;
-    text-align: center;
+.signin-title {
+    line-height: 3em;
+}
+
+.signin-local-section {
+    text-align: left;
+    margin: .5em;
+}
+
+.signin-facebook-section {
+    margin: .5em;
 }
 
 .signin-facebook-btn {

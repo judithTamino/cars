@@ -14,8 +14,32 @@ router.get('/facebook/callback', passport.authenticate('facebook', { failureRedi
     res.redirect(`${process.env.FRONTEND_HOST}/dashboard`);
 });
 
+// @desc auth with local 
+// @route GET /auth/signin
+router.post('/signin', (req, res, next) => {
+    passport.authenticate('local', function(err, user, info) {
+        let data = user;
+        if (err) {
+            data = info;
+        }
+        if (!user) {
+            data = info;
+        }
+        req.logIn(user, function(err) {
+            if (err) {
+                data = info;
+            }
+            res.status(200).json(data);
+        });
+    })(req, res, next);
+})
+
 // @desc logout user
 // @route GET /auth/logout
+router.get('/logout', (res, req) => {
+    req.logout();
+    console.log('logout');
+})
 
 
 module.exports = router;
